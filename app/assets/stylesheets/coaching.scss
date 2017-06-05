@@ -1,0 +1,59 @@
+// Place all the styles related to the coaching controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+  text-align: center;
+}
+
+.container-two{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#question-print{
+  width: 400px;
+  padding: 10px 10px;
+  border-left: 3px solid;
+  border-left-color: #EDEDED;
+  p{
+  color: #8D8D8D;
+
+  margin-top: 20px;
+  }
+
+}
+
+#answer{
+  width: 400px;
+  padding: 10px 10px;
+  margin-top: 20px;
+  border-left: 3px solid;
+  border-left-color: #EDEDED;
+  p{
+  color: #8D8D8D;
+  margin-top: 20px;
+  }
+}
+
+#link-question{
+
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form label {
+  font-size: 50px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
